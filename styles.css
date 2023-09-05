@@ -1,0 +1,223 @@
+/* IMPORTACION DE TIPOGRAFIAS DESDE GOOGLE FONTS*/
+
+/* 1. Montserrat Negrilla Italica */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+/* 2. Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+a:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.nav_bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 99vw;
+    height: 10vh;
+    border-bottom: 0.5px #F54703 solid;
+}
+
+.titulo_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 35vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.mis_proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 45vh;
+    border-bottom: 0.5px #F54703 solid;
+}
+
+.mis_proyectos h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.mis_proyectos th {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.mis_proyectos td {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mis_proyectos table {
+    width: 90vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th, td {
+    border: white 1px solid;
+    height: 6vh;
+}
+
+.quien_soy {
+    border-top: 0.5px #F54703 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    border-bottom: 0.5px #F54703 solid;
+}
+
+.quien_soy h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+    width: 80vw;
+}
+
+.quien_soy p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 80vw;
+}
+
+/* Cambiar el estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 0.5vw; /* Ancho de la barra de desplazamiento */
+    background-color: black; /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Cambiar el estilo del "pulgar" de la barra de desplazamiento (la parte que se arrastra) */
+::-webkit-scrollbar-thumb {
+    background-color: #F54703;; /* Color del "pulgar" */
+    border-radius: 1vw; /* Bordes redondeados */
+}
+
+/* Cambiar el estilo cuando se pasa el mouse sobre la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+    background-color: white; /* Color del "pulgar" al pasar el mouse */
+}
+
+.contactame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    border-bottom: 0.5px #F54703 solid;
+}
+
+.contactame h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.contactame form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    width: 50vw;
+}
+
+.contactame label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user_email {
+    width: 20vw;
+    height: 5vh;
+    background-color: #F54703;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.enviar_email {
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    color: #F54703;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.enviar_email:hover {
+    background-color: #F54703;
+    color: white;
+}
+
+.creditos_autor {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+.informacion h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F54703;
+}
+
+.informacion p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 70vw;
+    text-align: center;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+}
+
+.social_media div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+img {
+    height: 10vh;
+    width: 5vw;
+}
